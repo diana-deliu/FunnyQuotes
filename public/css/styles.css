@@ -1,0 +1,109 @@
+html, body {
+    margin:0;
+    padding:0;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    display: table;
+    background: #fff !important;
+    font-family: 'Great Vibes' !important;
+    font-size: 36px !important;
+}
+
+.panel-quote {
+    border-radius: 7px !important;
+    border: 1px solid #EEEEEE !important;
+    -webkit-box-shadow: none !important;
+    box-shadow: none !important;
+    background: #BDD9CA !important;
+    color: #FFF !important;
+
+}
+
+.container-result {
+    padding: 70px 0 0 0;
+}
+
+.title {
+    font-family: 'Great Vibes';
+    color: #EA6576;
+    text-align: center;
+    font-size: 76px;
+}
+
+header {
+    height: 120px;
+    width: 100%;
+    border: 1px solid #EEEEEE;
+    border-radius: 7px;
+    background: #fff;
+    margin: 50px 0 30px 0px;
+}
+
+.container-center {
+    text-align: center;
+    vertical-align: middle;
+    margin: 70px 0 0 0;
+}
+
+.content {
+    text-align: center;
+}
+
+.rectangle {
+    margin:auto;
+    width: 50%;
+    height: 100px;
+}
+.rectangle div {
+    width: 10%;
+    height: 90%;
+    border-radius: 7px;
+    display: inline-block;
+    margin: 1%;
+    color: #fff;
+    vertical-align: top;
+    text-align: center;
+    line-height: 90px;
+    font-size:28px;
+}
+
+.rectangle .green {
+    background: #BDD9CA;
+}
+
+.rectangle .orange {
+    background: #FFA076;
+}
+
+.rectangle .purple {
+    background: #946CA8;
+}
+
+.rectangle .pink {
+    background: #EA6576;
+}
+
+.rectangle .orchid {
+    background: #D4B9CA;
+}
+
+.rectangle .marigold {
+    background: #FDAC53;
+}
+
+.rectangle .violet {
+    background: #8B4964;
+}
+
+.rectangle .kelly {
+    background: #349C5F;
+}
+
+.form-rectangle {
+
+}
+

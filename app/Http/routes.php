@@ -12,3 +12,5 @@
 */
 
 Route::get('/', 'StupidQuoteController@index');
+Route::get('/test', 'StupidQuoteController@test');
+

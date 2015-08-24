@@ -1,45 +1,70 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <title>Laravel</title>
+<head>
+    <title>Stupid Quotes</title>
+    <link rel="stylesheet" href="{{ asset('css/styles.css') }}"/>
+    <link rel="stylesheet" href="{{ asset('css/bootstrap.css') }}"/>
+    <link href='http://fonts.googleapis.com/css?family=Great+Vibes&subset=latin,latin-ext' rel='stylesheet'
+          type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Roboto:400,700,100,300&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
 
-        <link href="https://fonts.googleapis.com/css?family=Lato:100" rel="stylesheet" type="text/css">
+</head>
+<body>
 
-        <style>
-            html, body {
-                height: 100%;
-            }
+<header>
+    <div class="menu">
+    </div>
+    <div class="title">
+        Stupid Quotes
+    </div>
+</header>
 
-            body {
-                margin: 0;
-                padding: 0;
-                width: 100%;
-                display: table;
-                font-weight: 100;
-                font-family: 'Lato';
-            }
+<div class="container-center">
+    <div class="rectangle content">
+        <div class="green" id="myDivGreen">
+            <span class="rect-text"> curu</span>
+        </div>
+        <div class="orange" id="myDivOrange">
+            <span class="rect-text"> văcaru</span>
 
-            .container {
-                text-align: center;
-                display: table-cell;
-                vertical-align: middle;
-            }
+        </div>
+        <div class="purple" id="myDivPurple">
+            <span class="rect-text"> amorsa</span>
 
-            .content {
-                text-align: center;
-                display: inline-block;
-            }
+        </div>
+        <div class="pink" id="myDivPink">
+            <span class="rect-text"> de baie</span>
 
-            .title {
-                font-size: 96px;
-            }
-        </style>
-    </head>
-    <body>
-        <div class="container">
-            <div class="content">
-                <div class="title">Laravel 5</div>
+        </div>
+    </div>
+
+    <div class="rectangle content">
+        <div class="orchid" id="myDivOrchid">
+            <span class="rect-text"> curca</span>
+
+        </div>
+        <div class="marigold" id="myDivMarigold">
+            <span class="rect-text"> merge</span>
+
+        </div>
+        <div class="violet" id="myDivViolet">
+            <span class="rect-text"> la</span>
+
+        </div>
+        <div class="kelly" id="myDivKelly">
+            <span class="rect-text"> piaţă</span>
+
+        </div>
+    </div>
+    <div class="container-result">
+        <div class="panel-quote panel panel-default col-lg-4 col-lg-offset-4">
+            <div class="panel-body">
+                Pelicanul marinat şi-a extirpat pula din ficat.
             </div>
         </div>
-    </body>
+    </div>
+</div>
+<script src="{{ asset('js/jquery.min.js') }}"></script>
+@include('partials.text_animation')
+</body>
 </html>
