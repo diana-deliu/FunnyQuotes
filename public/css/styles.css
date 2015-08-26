@@ -20,7 +20,6 @@ body {
     box-shadow: none !important;
     background: #BDD9CA !important;
     color: #FFF !important;
-
 }
 
 .container-result {
@@ -54,16 +53,12 @@ header {
 }
 
 .rectangle {
-    margin:auto;
-    width: 50%;
-    height: 100px;
+    margin: 200px auto;
 }
 .rectangle div {
-    width: 10%;
-    height: 90%;
     border-radius: 7px;
     display: inline-block;
-    margin: 1%;
+    margin: 0 30% 0 0;
     color: #fff;
     vertical-align: top;
     text-align: center;
@@ -85,10 +80,6 @@ header {
 
 .rectangle .pink {
     background: #EA6576;
-}
-
-.rectangle .orchid {
-    background: #D4B9CA;
 }
 
 .rectangle .marigold {
